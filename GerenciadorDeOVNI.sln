@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeOVNI", "GerenciadorDeOVNI\GerenciadorDeOVNI.csproj", "{95C1D661-050D-4E62-BE74-DA7D1CE94B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaOVNI", "BibliotecaOVNI\BibliotecaOVNI.csproj", "{7577C21D-1E10-4713-BC20-5339BEE758AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C1D661-050D-4E62-BE74-DA7D1CE94B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C1D661-050D-4E62-BE74-DA7D1CE94B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C1D661-050D-4E62-BE74-DA7D1CE94B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C1D661-050D-4E62-BE74-DA7D1CE94B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7577C21D-1E10-4713-BC20-5339BEE758AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7577C21D-1E10-4713-BC20-5339BEE758AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7577C21D-1E10-4713-BC20-5339BEE758AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7577C21D-1E10-4713-BC20-5339BEE758AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E48D22F0-1A80-421B-A1E6-5B06CF364923}
+	EndGlobalSection
+EndGlobal
