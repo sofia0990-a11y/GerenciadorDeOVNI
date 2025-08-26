@@ -93,7 +93,7 @@
             // 
             // btnIniciar
             // 
-            this.btnIniciar.Location = new System.Drawing.Point(108, 208);
+            this.btnIniciar.Location = new System.Drawing.Point(108, 197);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(216, 41);
             this.btnIniciar.TabIndex = 6;
@@ -105,7 +105,7 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Lucida Handwriting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(120, 53);
+            this.lblTitulo.Location = new System.Drawing.Point(118, 51);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(279, 31);
             this.lblTitulo.TabIndex = 7;
@@ -114,7 +114,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GerenciadorDeOVNI.Properties.Resources.CABESUDO;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 69);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
