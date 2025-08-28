@@ -10,8 +10,9 @@
 
 namespace GerenciadorDeOVNI.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
     /// </summary>
@@ -23,7 +24,7 @@ namespace GerenciadorDeOVNI.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image hug;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -76,6 +77,16 @@ namespace GerenciadorDeOVNI.Properties {
         internal static System.Drawing.Bitmap ETE {
             get {
                 object obj = ResourceManager.GetObject("ETE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Terra {
+            get {
+                object obj = ResourceManager.GetObject("Terra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

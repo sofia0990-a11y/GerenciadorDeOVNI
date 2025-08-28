@@ -43,7 +43,7 @@ namespace BibliotecaOVNI
 
         public string planeta { get { return _planetaOrigem; } }
 
-        
+        public string PlanetaAtual { get { return _planetaAtual; } }
 
         public OVNI(int maxTripulantes, int maxAbduzidos, string planetaOrigem) 
         {
@@ -167,5 +167,14 @@ namespace BibliotecaOVNI
             }
         }
 
+        public bool RetornarAoPlanetaDeOrigem(System.Windows.Forms.ComboBox cmdPlanetas)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool RetornarAoPlanetaDeOrigem(string text)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
